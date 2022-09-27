@@ -17,9 +17,6 @@ public class MainActivity2 extends AppCompatActivity {
         //ASIGNAMOS VALORES
         datos =(TextView)findViewById(R.id.nom);
         //Recuperamos Valores
-        variablesReci = getIntent().getExtras();
-        valorRecibido= variablesReci.getString("valorKey");
-        datos.setText(valorRecibido);
 
     }
 }
