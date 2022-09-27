@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/color"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,9 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="535dp"
-        android:text="Ingrese datos para Iniciar Sesión" />
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="489dp"
+        android:text="Ingrese datos para Iniciar Sesión"
+        android:textSize="50px" />
 
     <EditText
         android:id="@+id/usuario"
